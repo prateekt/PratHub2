@@ -1,0 +1,446 @@
+track Area_100KB-1000G_expected
+bigDataUrl Area_100KB/1000G_expected.bw
+shortLabel Area_100KB-1000G_expected
+longLabel Area_100KB-1000G_expected
+type bigWig
+color 139,69,19
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track Area_100KB-gnomAD_observed
+bigDataUrl Area_100KB/gnomAD_observed.bw
+shortLabel Area_100KB-gnomAD_observed
+longLabel Area_100KB-gnomAD_observed
+type bigWig
+color 255,228,225
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track Area_100KB-gnomAD_expected
+bigDataUrl Area_100KB/gnomAD_expected.bw
+shortLabel Area_100KB-gnomAD_expected
+longLabel Area_100KB-gnomAD_expected
+type bigWig
+color 192,192,192
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track Area_100KB-1000G_observed
+bigDataUrl Area_100KB/1000G_observed.bw
+shortLabel Area_100KB-1000G_observed
+longLabel Area_100KB-1000G_observed
+type bigWig
+color 128,128,0
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track Area_10KB-1000G_expected
+bigDataUrl Area_10KB/1000G_expected.bw
+shortLabel Area_10KB-1000G_expected
+longLabel Area_10KB-1000G_expected
+type bigWig
+color 218,165,32
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track Area_10KB-gnomAD_observed
+bigDataUrl Area_10KB/gnomAD_observed.bw
+shortLabel Area_10KB-gnomAD_observed
+longLabel Area_10KB-gnomAD_observed
+type bigWig
+color 128,128,128
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track Area_10KB-gnomAD_expected
+bigDataUrl Area_10KB/gnomAD_expected.bw
+shortLabel Area_10KB-gnomAD_expected
+longLabel Area_10KB-gnomAD_expected
+type bigWig
+color 255,0,255
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track Area_10KB-1000G_observed
+bigDataUrl Area_10KB/1000G_observed.bw
+shortLabel Area_10KB-1000G_observed
+longLabel Area_10KB-1000G_observed
+type bigWig
+color 0,0,255
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track Area_1KB-1000G_expected
+bigDataUrl Area_1KB/1000G_expected.bw
+shortLabel Area_1KB-1000G_expected
+longLabel Area_1KB-1000G_expected
+type bigWig
+color 0,128,128
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track Area_1KB-gnomAD_observed
+bigDataUrl Area_1KB/gnomAD_observed.bw
+shortLabel Area_1KB-gnomAD_observed
+longLabel Area_1KB-gnomAD_observed
+type bigWig
+color 255,140,0
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track Area_1KB-gnomAD_expected
+bigDataUrl Area_1KB/gnomAD_expected.bw
+shortLabel Area_1KB-gnomAD_expected
+longLabel Area_1KB-gnomAD_expected
+type bigWig
+color 255,0,0
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track Area_1KB-1000G_observed
+bigDataUrl Area_1KB/1000G_observed.bw
+shortLabel Area_1KB-1000G_observed
+longLabel Area_1KB-1000G_observed
+type bigWig
+color 0,255,0
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track Area_1MB-1000G_expected
+bigDataUrl Area_1MB/1000G_expected.bw
+shortLabel Area_1MB-1000G_expected
+longLabel Area_1MB-1000G_expected
+type bigWig
+color 178,34,34
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track Area_1MB-gnomAD_observed
+bigDataUrl Area_1MB/gnomAD_observed.bw
+shortLabel Area_1MB-gnomAD_observed
+longLabel Area_1MB-gnomAD_observed
+type bigWig
+color 192,192,192
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track Area_1MB-gnomAD_expected
+bigDataUrl Area_1MB/gnomAD_expected.bw
+shortLabel Area_1MB-gnomAD_expected
+longLabel Area_1MB-gnomAD_expected
+type bigWig
+color 0,128,128
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track Area_1MB-1000G_observed
+bigDataUrl Area_1MB/1000G_observed.bw
+shortLabel Area_1MB-1000G_observed
+longLabel Area_1MB-1000G_observed
+type bigWig
+color 218,165,32
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track BP_100KB-1000G_expected
+bigDataUrl BP_100KB/1000G_expected.bw
+shortLabel BP_100KB-1000G_expected
+longLabel BP_100KB-1000G_expected
+type bigWig
+color 0,255,255
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track BP_100KB-gnomAD_observed
+bigDataUrl BP_100KB/gnomAD_observed.bw
+shortLabel BP_100KB-gnomAD_observed
+longLabel BP_100KB-gnomAD_observed
+type bigWig
+color 238,130,238
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track BP_100KB-gnomAD_expected
+bigDataUrl BP_100KB/gnomAD_expected.bw
+shortLabel BP_100KB-gnomAD_expected
+longLabel BP_100KB-gnomAD_expected
+type bigWig
+color 238,130,238
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track BP_100KB-1000G_observed
+bigDataUrl BP_100KB/1000G_observed.bw
+shortLabel BP_100KB-1000G_observed
+longLabel BP_100KB-1000G_observed
+type bigWig
+color 189,183,107
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track BP_10KB-1000G_expected
+bigDataUrl BP_10KB/1000G_expected.bw
+shortLabel BP_10KB-1000G_expected
+longLabel BP_10KB-1000G_expected
+type bigWig
+color 0,255,0
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track BP_10KB-gnomAD_observed
+bigDataUrl BP_10KB/gnomAD_observed.bw
+shortLabel BP_10KB-gnomAD_observed
+longLabel BP_10KB-gnomAD_observed
+type bigWig
+color 205,92,92
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track BP_10KB-gnomAD_expected
+bigDataUrl BP_10KB/gnomAD_expected.bw
+shortLabel BP_10KB-gnomAD_expected
+longLabel BP_10KB-gnomAD_expected
+type bigWig
+color 128,128,0
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track BP_10KB-1000G_observed
+bigDataUrl BP_10KB/1000G_observed.bw
+shortLabel BP_10KB-1000G_observed
+longLabel BP_10KB-1000G_observed
+type bigWig
+color 255,140,0
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track BP_1KB-1000G_expected
+bigDataUrl BP_1KB/1000G_expected.bw
+shortLabel BP_1KB-1000G_expected
+longLabel BP_1KB-1000G_expected
+type bigWig
+color 218,165,32
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track BP_1KB-gnomAD_observed
+bigDataUrl BP_1KB/gnomAD_observed.bw
+shortLabel BP_1KB-gnomAD_observed
+longLabel BP_1KB-gnomAD_observed
+type bigWig
+color 0,128,128
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track BP_1KB-gnomAD_expected
+bigDataUrl BP_1KB/gnomAD_expected.bw
+shortLabel BP_1KB-gnomAD_expected
+longLabel BP_1KB-gnomAD_expected
+type bigWig
+color 192,192,192
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track BP_1KB-1000G_observed
+bigDataUrl BP_1KB/1000G_observed.bw
+shortLabel BP_1KB-1000G_observed
+longLabel BP_1KB-1000G_observed
+type bigWig
+color 178,34,34
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track BP_1MB-1000G_expected
+bigDataUrl BP_1MB/1000G_expected.bw
+shortLabel BP_1MB-1000G_expected
+longLabel BP_1MB-1000G_expected
+type bigWig
+color 189,183,107
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track BP_1MB-gnomAD_observed
+bigDataUrl BP_1MB/gnomAD_observed.bw
+shortLabel BP_1MB-gnomAD_observed
+longLabel BP_1MB-gnomAD_observed
+type bigWig
+color 128,128,0
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track BP_1MB-gnomAD_expected
+bigDataUrl BP_1MB/gnomAD_expected.bw
+shortLabel BP_1MB-gnomAD_expected
+longLabel BP_1MB-gnomAD_expected
+type bigWig
+color 192,192,192
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track BP_1MB-1000G_observed
+bigDataUrl BP_1MB/1000G_observed.bw
+shortLabel BP_1MB-1000G_observed
+longLabel BP_1MB-1000G_observed
+type bigWig
+color 128,0,0
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on

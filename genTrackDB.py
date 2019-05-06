@@ -59,7 +59,7 @@ top_folders.sort()
 fout = open('hg19/trackDb.txt','w')
 for f in top_folders:
 	files = [f + '/' + a for a in os.listdir('hg19/' + f) if ".bigWig" in a]
-	for urlIndex in xrange(0,len(files)):
+	for urlIndex in range(0,len(files)):
 		url = files[urlIndex]
 		command = makeTrackStr(url,f+'-'+rootname(url),COLORS[np.random.randint(len(COLORS))])
 		if(f==top_folders[-1] and urlIndex==len(files)-1):

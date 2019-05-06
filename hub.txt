@@ -1,0 +1,6 @@
+hub SebatHub
+shortLabel Sebat Hub
+longLabel Hub for Sebat Lab UCSD
+genomesFile genomes.txt
+email prtandon@ucsd.edu
+descriptionUrl sebatHub.html

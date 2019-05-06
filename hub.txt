@@ -1,4 +1,4 @@
-hub SebatHub
+hub SebatHub2
 shortLabel Sebat Hub
 longLabel Hub for Sebat Lab UCSD
 genomesFile genomes.txt

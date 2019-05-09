@@ -1,6 +1,6 @@
-hub SebatHub2
-shortLabel Sebat Hub
-longLabel Hub for Sebat Lab UCSD
+hub PratHub2
+shortLabel Prat Hub 2019
+longLabel Hub for Mutation Rate Tracks
 genomesFile genomes.txt
 email prtandon@ucsd.edu
 descriptionUrl sebatHub.html

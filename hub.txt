@@ -1,4 +1,4 @@
-hub SebatHub2
+hub PratHub2
 shortLabel Prat Hub 2019
 longLabel Hub for Mutation Rate Tracks
 genomesFile genomes.txt

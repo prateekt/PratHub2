@@ -1,21 +1,7 @@
-track gnomad_area-log10_OE
-bigDataUrl gnomad_area/log10_OE.bw
-shortLabel gnomad_area-log10_OE
-longLabel gnomad_area-log10_OE
-type bigWig
-color 0,0,0
-visibility full
-autoScale on
-graphTypeDefault bar
-windowingFunction mean
-smoothingWindow 12
-spectrum on
-
-
-track gnomad_area-model_preds
-bigDataUrl gnomad_area/model_preds.bw
-shortLabel gnomad_area-model_preds
-longLabel gnomad_area-model_preds
+track area_1KB-log10_OE
+bigDataUrl area_1KB/log10_OE.bw
+shortLabel area_1KB-log10_OE
+longLabel area_1KB-log10_OE
 type bigWig
 color 139,69,19
 visibility full
@@ -26,10 +12,24 @@ smoothingWindow 12
 spectrum on
 
 
-track gnomad_area-observed
-bigDataUrl gnomad_area/observed.bw
-shortLabel gnomad_area-observed
-longLabel gnomad_area-observed
+track area_1KB-model_preds
+bigDataUrl area_1KB/model_preds.bw
+shortLabel area_1KB-model_preds
+longLabel area_1KB-model_preds
+type bigWig
+color 255,0,0
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track area_1KB-observed
+bigDataUrl area_1KB/observed.bw
+shortLabel area_1KB-observed
+longLabel area_1KB-observed
 type bigWig
 color 189,183,107
 visibility full
@@ -40,12 +40,12 @@ smoothingWindow 12
 spectrum on
 
 
-track gnomad_bp-log10_OE
-bigDataUrl gnomad_bp/log10_OE.bw
-shortLabel gnomad_bp-log10_OE
-longLabel gnomad_bp-log10_OE
+track area_1MB-log10_OE
+bigDataUrl area_1MB/log10_OE.bw
+shortLabel area_1MB-log10_OE
+longLabel area_1MB-log10_OE
 type bigWig
-color 255,228,225
+color 128,0,128
 visibility full
 autoScale on
 graphTypeDefault bar
@@ -54,10 +54,38 @@ smoothingWindow 12
 spectrum on
 
 
-track gnomad_bp-model_preds
-bigDataUrl gnomad_bp/model_preds.bw
-shortLabel gnomad_bp-model_preds
-longLabel gnomad_bp-model_preds
+track area_1MB-model_preds
+bigDataUrl area_1MB/model_preds.bw
+shortLabel area_1MB-model_preds
+longLabel area_1MB-model_preds
+type bigWig
+color 255,105,180
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track area_1MB-observed
+bigDataUrl area_1MB/observed.bw
+shortLabel area_1MB-observed
+longLabel area_1MB-observed
+type bigWig
+color 0,0,255
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track area_1MB-zscore_OE
+bigDataUrl area_1MB/zscore_OE.bw
+shortLabel area_1MB-zscore_OE
+longLabel area_1MB-zscore_OE
 type bigWig
 color 244,164,96
 visibility full
@@ -68,12 +96,96 @@ smoothingWindow 12
 spectrum on
 
 
-track gnomad_bp-observed
-bigDataUrl gnomad_bp/observed.bw
-shortLabel gnomad_bp-observed
-longLabel gnomad_bp-observed
+track bp_1KB-log10_OE
+bigDataUrl bp_1KB/log10_OE.bw
+shortLabel bp_1KB-log10_OE
+longLabel bp_1KB-log10_OE
 type bigWig
 color 128,0,128
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track bp_1KB-model_preds
+bigDataUrl bp_1KB/model_preds.bw
+shortLabel bp_1KB-model_preds
+longLabel bp_1KB-model_preds
+type bigWig
+color 255,228,225
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track bp_1KB-observed
+bigDataUrl bp_1KB/observed.bw
+shortLabel bp_1KB-observed
+longLabel bp_1KB-observed
+type bigWig
+color 255,105,180
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track bp_1MB-log10_OE
+bigDataUrl bp_1MB/log10_OE.bw
+shortLabel bp_1MB-log10_OE
+longLabel bp_1MB-log10_OE
+type bigWig
+color 128,128,128
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track bp_1MB-model_preds
+bigDataUrl bp_1MB/model_preds.bw
+shortLabel bp_1MB-model_preds
+longLabel bp_1MB-model_preds
+type bigWig
+color 255,0,0
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track bp_1MB-observed
+bigDataUrl bp_1MB/observed.bw
+shortLabel bp_1MB-observed
+longLabel bp_1MB-observed
+type bigWig
+color 0,0,0
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track bp_1MB-zscore_OE
+bigDataUrl bp_1MB/zscore_OE.bw
+shortLabel bp_1MB-zscore_OE
+longLabel bp_1MB-zscore_OE
+type bigWig
+color 255,140,0
 visibility full
 autoScale on
 graphTypeDefault bar

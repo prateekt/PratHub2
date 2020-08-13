@@ -3,7 +3,7 @@ bigDataUrl gnomad_area/log10_OE.bw
 shortLabel gnomad_area-log10_OE
 longLabel gnomad_area-log10_OE
 type bigWig
-color 0,0,255
+color 0,0,0
 visibility full
 autoScale on
 graphTypeDefault bar
@@ -17,7 +17,7 @@ bigDataUrl gnomad_area/model_preds.bw
 shortLabel gnomad_area-model_preds
 longLabel gnomad_area-model_preds
 type bigWig
-color 192,192,192
+color 139,69,19
 visibility full
 autoScale on
 graphTypeDefault bar
@@ -31,7 +31,7 @@ bigDataUrl gnomad_area/observed.bw
 shortLabel gnomad_area-observed
 longLabel gnomad_area-observed
 type bigWig
-color 255,105,180
+color 189,183,107
 visibility full
 autoScale on
 graphTypeDefault bar
@@ -45,7 +45,7 @@ bigDataUrl gnomad_bp/log10_OE.bw
 shortLabel gnomad_bp-log10_OE
 longLabel gnomad_bp-log10_OE
 type bigWig
-color 189,183,107
+color 255,228,225
 visibility full
 autoScale on
 graphTypeDefault bar
@@ -59,7 +59,7 @@ bigDataUrl gnomad_bp/model_preds.bw
 shortLabel gnomad_bp-model_preds
 longLabel gnomad_bp-model_preds
 type bigWig
-color 0,0,128
+color 244,164,96
 visibility full
 autoScale on
 graphTypeDefault bar
@@ -73,7 +73,7 @@ bigDataUrl gnomad_bp/observed.bw
 shortLabel gnomad_bp-observed
 longLabel gnomad_bp-observed
 type bigWig
-color 205,92,92
+color 128,0,128
 visibility full
 autoScale on
 graphTypeDefault bar

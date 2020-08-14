@@ -1,9 +1,9 @@
-track area_100KB-log10_OE
-bigDataUrl area_100KB/log10_OE.bw
-shortLabel area_100KB-log10_OE
-longLabel area_100KB-log10_OE
+track areas_100KB-log10_OE
+bigDataUrl areas_100KB/log10_OE.bw
+shortLabel areas_100KB-log10_OE
+longLabel areas_100KB-log10_OE
 type bigWig
-color 244,164,96
+color 0,0,255
 visibility full
 autoScale on
 graphTypeDefault bar
@@ -12,24 +12,10 @@ smoothingWindow 12
 spectrum on
 
 
-track area_100KB-model_preds
-bigDataUrl area_100KB/model_preds.bw
-shortLabel area_100KB-model_preds
-longLabel area_100KB-model_preds
-type bigWig
-color 255,140,0
-visibility full
-autoScale on
-graphTypeDefault bar
-windowingFunction mean
-smoothingWindow 12
-spectrum on
-
-
-track area_100KB-observed
-bigDataUrl area_100KB/observed.bw
-shortLabel area_100KB-observed
-longLabel area_100KB-observed
+track areas_100KB-model_preds
+bigDataUrl areas_100KB/model_preds.bw
+shortLabel areas_100KB-model_preds
+longLabel areas_100KB-model_preds
 type bigWig
 color 139,69,19
 visibility full
@@ -40,12 +26,12 @@ smoothingWindow 12
 spectrum on
 
 
-track area_100KB-zscore_OE
-bigDataUrl area_100KB/zscore_OE.bw
-shortLabel area_100KB-zscore_OE
-longLabel area_100KB-zscore_OE
+track areas_100KB-observed
+bigDataUrl areas_100KB/observed.bw
+shortLabel areas_100KB-observed
+longLabel areas_100KB-observed
 type bigWig
-color 255,140,0
+color 128,0,128
 visibility full
 autoScale on
 graphTypeDefault bar
@@ -54,10 +40,52 @@ smoothingWindow 12
 spectrum on
 
 
-track area_1KB-log10_OE
-bigDataUrl area_1KB/log10_OE.bw
-shortLabel area_1KB-log10_OE
-longLabel area_1KB-log10_OE
+track areas_100KB-zscore_OE
+bigDataUrl areas_100KB/zscore_OE.bw
+shortLabel areas_100KB-zscore_OE
+longLabel areas_100KB-zscore_OE
+type bigWig
+color 244,164,96
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track areas_1MB-log10_OE
+bigDataUrl areas_1MB/log10_OE.bw
+shortLabel areas_1MB-log10_OE
+longLabel areas_1MB-log10_OE
+type bigWig
+color 0,0,255
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track areas_1MB-model_preds
+bigDataUrl areas_1MB/model_preds.bw
+shortLabel areas_1MB-model_preds
+longLabel areas_1MB-model_preds
+type bigWig
+color 238,130,238
+visibility full
+autoScale on
+graphTypeDefault bar
+windowingFunction mean
+smoothingWindow 12
+spectrum on
+
+
+track areas_1MB-observed
+bigDataUrl areas_1MB/observed.bw
+shortLabel areas_1MB-observed
+longLabel areas_1MB-observed
 type bigWig
 color 0,0,128
 visibility full
@@ -68,82 +96,12 @@ smoothingWindow 12
 spectrum on
 
 
-track area_1KB-model_preds
-bigDataUrl area_1KB/model_preds.bw
-shortLabel area_1KB-model_preds
-longLabel area_1KB-model_preds
-type bigWig
-color 255,228,225
-visibility full
-autoScale on
-graphTypeDefault bar
-windowingFunction mean
-smoothingWindow 12
-spectrum on
-
-
-track area_1KB-observed
-bigDataUrl area_1KB/observed.bw
-shortLabel area_1KB-observed
-longLabel area_1KB-observed
-type bigWig
-color 255,140,0
-visibility full
-autoScale on
-graphTypeDefault bar
-windowingFunction mean
-smoothingWindow 12
-spectrum on
-
-
-track area_1MB-log10_OE
-bigDataUrl area_1MB/log10_OE.bw
-shortLabel area_1MB-log10_OE
-longLabel area_1MB-log10_OE
-type bigWig
-color 0,0,0
-visibility full
-autoScale on
-graphTypeDefault bar
-windowingFunction mean
-smoothingWindow 12
-spectrum on
-
-
-track area_1MB-model_preds
-bigDataUrl area_1MB/model_preds.bw
-shortLabel area_1MB-model_preds
-longLabel area_1MB-model_preds
-type bigWig
-color 189,183,107
-visibility full
-autoScale on
-graphTypeDefault bar
-windowingFunction mean
-smoothingWindow 12
-spectrum on
-
-
-track area_1MB-observed
-bigDataUrl area_1MB/observed.bw
-shortLabel area_1MB-observed
-longLabel area_1MB-observed
+track areas_1MB-zscore_OE
+bigDataUrl areas_1MB/zscore_OE.bw
+shortLabel areas_1MB-zscore_OE
+longLabel areas_1MB-zscore_OE
 type bigWig
 color 0,128,128
-visibility full
-autoScale on
-graphTypeDefault bar
-windowingFunction mean
-smoothingWindow 12
-spectrum on
-
-
-track area_1MB-zscore_OE
-bigDataUrl area_1MB/zscore_OE.bw
-shortLabel area_1MB-zscore_OE
-longLabel area_1MB-zscore_OE
-type bigWig
-color 244,164,96
 visibility full
 autoScale on
 graphTypeDefault bar
@@ -157,7 +115,7 @@ bigDataUrl bp_100KB/log10_OE.bw
 shortLabel bp_100KB-log10_OE
 longLabel bp_100KB-log10_OE
 type bigWig
-color 218,165,32
+color 255,0,255
 visibility full
 autoScale on
 graphTypeDefault bar
@@ -171,7 +129,7 @@ bigDataUrl bp_100KB/model_preds.bw
 shortLabel bp_100KB-model_preds
 longLabel bp_100KB-model_preds
 type bigWig
-color 255,228,225
+color 128,128,0
 visibility full
 autoScale on
 graphTypeDefault bar
@@ -185,7 +143,7 @@ bigDataUrl bp_100KB/observed.bw
 shortLabel bp_100KB-observed
 longLabel bp_100KB-observed
 type bigWig
-color 139,69,19
+color 255,105,180
 visibility full
 autoScale on
 graphTypeDefault bar
@@ -199,49 +157,7 @@ bigDataUrl bp_100KB/zscore_OE.bw
 shortLabel bp_100KB-zscore_OE
 longLabel bp_100KB-zscore_OE
 type bigWig
-color 128,0,0
-visibility full
-autoScale on
-graphTypeDefault bar
-windowingFunction mean
-smoothingWindow 12
-spectrum on
-
-
-track bp_1KB-log10_OE
-bigDataUrl bp_1KB/log10_OE.bw
-shortLabel bp_1KB-log10_OE
-longLabel bp_1KB-log10_OE
-type bigWig
-color 205,92,92
-visibility full
-autoScale on
-graphTypeDefault bar
-windowingFunction mean
-smoothingWindow 12
-spectrum on
-
-
-track bp_1KB-model_preds
-bigDataUrl bp_1KB/model_preds.bw
-shortLabel bp_1KB-model_preds
-longLabel bp_1KB-model_preds
-type bigWig
-color 128,0,128
-visibility full
-autoScale on
-graphTypeDefault bar
-windowingFunction mean
-smoothingWindow 12
-spectrum on
-
-
-track bp_1KB-observed
-bigDataUrl bp_1KB/observed.bw
-shortLabel bp_1KB-observed
-longLabel bp_1KB-observed
-type bigWig
-color 255,105,180
+color 238,130,238
 visibility full
 autoScale on
 graphTypeDefault bar
@@ -255,7 +171,7 @@ bigDataUrl bp_1MB/log10_OE.bw
 shortLabel bp_1MB-log10_OE
 longLabel bp_1MB-log10_OE
 type bigWig
-color 128,0,0
+color 128,128,0
 visibility full
 autoScale on
 graphTypeDefault bar
@@ -269,7 +185,7 @@ bigDataUrl bp_1MB/model_preds.bw
 shortLabel bp_1MB-model_preds
 longLabel bp_1MB-model_preds
 type bigWig
-color 0,0,128
+color 0,255,0
 visibility full
 autoScale on
 graphTypeDefault bar
@@ -283,7 +199,7 @@ bigDataUrl bp_1MB/observed.bw
 shortLabel bp_1MB-observed
 longLabel bp_1MB-observed
 type bigWig
-color 218,165,32
+color 0,128,128
 visibility full
 autoScale on
 graphTypeDefault bar
@@ -297,7 +213,7 @@ bigDataUrl bp_1MB/zscore_OE.bw
 shortLabel bp_1MB-zscore_OE
 longLabel bp_1MB-zscore_OE
 type bigWig
-color 244,164,96
+color 128,0,0
 visibility full
 autoScale on
 graphTypeDefault bar
